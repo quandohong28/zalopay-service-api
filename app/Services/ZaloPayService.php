@@ -42,4 +42,8 @@ class ZaloPayService
 
         return json_decode($response->getBody(), true);
     }
+
+    public function getOrderStatus ($order_id) {
+        
+    }
 }
